@@ -1,1 +1,1 @@
-git+git@github.com/MStarvik/fsm.git@master#egg=fsm
+git+https://github.com/MStarvik/fsm.git@master#egg=fsm
