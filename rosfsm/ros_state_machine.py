@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 from fsm import StateMachine
 from . import RosState
 

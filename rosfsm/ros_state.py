@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 from fsm import State
 
 class RosState(State):
