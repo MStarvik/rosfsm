@@ -9,5 +9,5 @@ setup(name='rosfsm',
       author_email='mikkel.starvik@gmail.com',
       license='MIT',
       packages=['rosfsm'],
-      install_requires=['fsm @ git+https://github.com/MStarvik/fsm.git@master#egg=fsm>=0.1'],
+      install_requires=['fsm @ git+https://github.com/MStarvik/fsm.git@master#egg=fsm'],
       zip_safe=False)
