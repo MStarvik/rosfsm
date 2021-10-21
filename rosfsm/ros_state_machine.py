@@ -5,7 +5,7 @@ from . import RosState
 from std_srvs.srv import Trigger, TriggerResponse
 import rospy
 
-class RosStateMachine(StateMachine):
+class RosStateMachine(StateMachine, object):
     def __init__(self, services):
         super(RosStateMachine, self).__init__()
 
