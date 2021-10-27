@@ -14,5 +14,5 @@ class RosStateMachine(StateMachine, object):
             self.services.append(rospy.Service(service, Trigger, lambda req: self.__callback(req, service)))
 
     def __callback(self, req, service):
-        self.signal(service)
-        return TriggerResponse(True, 'success')
+        success, message = self.signal(service)
+        return TriggerResponse(success, message)
